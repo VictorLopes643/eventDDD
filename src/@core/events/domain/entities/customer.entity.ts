@@ -1,7 +1,6 @@
 import Uuid from '../../../common/domain/value-objects/uuid.vo';
 import { AggregateRoot } from '../../../common/domain/aggregate-root';
 import Cpf from '../../../common/domain/value-objects/cpf.vo';
-import { type } from 'os';
 
 export class CustomerId extends Uuid {}
 
